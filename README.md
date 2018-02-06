@@ -1,5 +1,5 @@
 ```
-yarn add callbag-gamepad
+yarn add callbag-gamepads
 ```
 
 ```javascript
