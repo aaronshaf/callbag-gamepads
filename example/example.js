@@ -1,5 +1,4 @@
 const pipe = require("callbag-pipe");
-const share = require("callbag-share");
 const forEach = require("callbag-for-each");
 const gamepads = require("../index.js");
 
