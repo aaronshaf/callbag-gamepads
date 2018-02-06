@@ -1,6 +1,7 @@
-// start raf loop on first call
+// start raf loop on first call (and wait for gamepadconnected?)
 // in every loop save state/cache of gamepads
 // deliever previous and current for each
+// on gamepaddisconnected, check to see if raf loop is necessary
 
 // copypasta for now
 function source(start, sink) {
