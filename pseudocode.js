@@ -2,13 +2,16 @@
 // in every loop save state/cache of gamepads
 // deliever previous and current for each
 
-// copypasta fro now
-const multiplyBy = args => inputSource => {
-  return function outputSource(start, outputSink) {
-    if (start !== 0) return;
-    inputSource(0, (type, data) => {
-      if (type === 1) outputSink(1, data);
-      else outputSink(t, d);
-    });
-  };
+// copypasta for now
+function source(type, data) {
+  if (type === 0) {
+    const sink = data;
+    let handle = setInterval(() => {
+      sink(1, null);
+    }, 1000);
+    const talkback = (t, d) => {
+      if (t === 2) clearInterval(handle);
+    };
+    sink(0, talkback);
+  }
 }
