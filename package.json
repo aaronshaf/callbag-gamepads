@@ -1,0 +1,19 @@
+{
+  "name": "callbag-gamepad",
+  "author": "Aaron Shafovaloff <aaronshaf@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronshaf/callbag-gamepad.git"
+  },
+  "description": "Callbag source for connected gamepad inputs",
+  "license": "MIT",
+  "main": "index.js",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "callbag-filter": "^1.0.0",
+    "callbag-flatten": "^1.0.0",
+    "callbag-for-each": "^1.0.0",
+    "callbag-pipe": "^1.1.0"
+  }
+}
