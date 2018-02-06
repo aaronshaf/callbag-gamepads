@@ -29,4 +29,4 @@ gamepads
 * [Callbag basics](https://github.com/staltz/callbag-basics)
 * [Why we need callbags](https://staltz.com/why-we-need-callbags.html), by André Staltz
 * [Using the Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API) (MDN)
-* [iNNEXT SNES Retro USB Game Controller](http://a.co/hgkJPTZ) (Amazon)
+* [iNNEXT SNES Retro USB Game Controller](http://a.co/hgkJPTZ) (Amazon) - I think you can also use an Xbox or PlayStation USB controller
