@@ -31,3 +31,15 @@ function source(start, sink) {
   };
   sink(0, talkback);
 };
+
+// make it "shared"; use existing callbag-shared
+
+// usage
+
+pipe(
+  gamepads(),
+  filter(/* connected */),
+  forEach((gamepads) => {
+    
+  })
+)
