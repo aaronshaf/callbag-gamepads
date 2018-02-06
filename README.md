@@ -15,6 +15,15 @@ pipe(
 );
 ```
 
+If you're blessed with the [pipeline operator](https://github.com/tc39/proposal-pipeline-operator):
+
+```javascript
+gamepads
+  |> forEach(gamepads => {
+    // have fun
+  });
+```
+
 ## Learn more
 
 * [Callbag basics](https://github.com/staltz/callbag-basics)
