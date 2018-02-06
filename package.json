@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "parcel example/index.html",
-    "build": "parcel build example/index.html"
+    "build": "parcel build example/index.html --public-url /"
   },
   "description": "Callbag source for connected gamepad inputs",
   "license": "MIT",
